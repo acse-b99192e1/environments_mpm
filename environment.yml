@@ -4,6 +4,10 @@ channels:
   - conda-forge
 dependencies:
   - python>=3.6,<3.10
+  - sympy
+  - matplotlib
+  - scipy
+  - numpy>1.16
   - pip: 
     - -r requirements.txt
  
